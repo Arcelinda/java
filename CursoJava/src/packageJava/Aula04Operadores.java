@@ -13,7 +13,27 @@ public class Aula04Operadores {
         System.out.println(resto);
         // < > <= >= == !=
         boolean isDezMaiorQueVinte = 10 > 20;
-        System.out.println("isDezMaiorQueVinte"+isDezMaiorQueVinte);
-        System.out.println("isDezMaiorQueVinte"+isDezMaiorQueVinte);
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezDiferenteDez = 10D !=10;
+
+        System.out.println("isDezMaiorQueVinte " +isDezMaiorQueVinte);
+        System.out.println("isDezMenorQueVinte " +isDezMenorQueVinte);
+        System.out.println("isDezMaiorQueVinte " +isDezIgualVinte);
+        System.out.println("isDezDiferenteDez " +isDezIgualVinte);
+
+
+        //OPERADORES LOGICOS
+
+        // && (AND) || (or)
+        int idade = 35;
+        float salario = 35000F;
+
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 38 && salario > 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 38 && salario > 3381;
+
+        System.out.println("isDentroDaLeiMaiorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
+
     }
 }
