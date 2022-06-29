@@ -24,7 +24,7 @@ public class Employee {
     }
     //Construtor com parametro
     Employee (String name, String role){
-        thos.name = name;
+        this.name = name;
         this.role = role;
 
     }
