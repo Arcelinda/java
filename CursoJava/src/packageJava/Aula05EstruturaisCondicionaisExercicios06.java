@@ -6,7 +6,7 @@ public class Aula05EstruturaisCondicionaisExercicios06 {
         //Utilizando o Switch, Dados os valores de 1 a 7, imprima se e dia util ou final de semana
         //Considerando o Domingo
 
-    byte dia = 5;
+    byte dia = 0;
     switch (dia){
         case 1:
         case 7:
